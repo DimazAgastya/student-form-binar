@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.logo {
+	color: rgb(202, 198, 243);
+	font-family: Bangers;
+	font-size: 30px;
+	margin: -5px 0px 0px 50px;
+	text-decoration: none;
+}
+
+.nav {
+	padding-right: 15px;
+	font-size: 18px;
+	line-height: 20%;
+	font-weight: 500;
+}
+
+.navbar_container {
+	margin: 0;
+}
+
+.navbar_bg {
+	background: rgb(29, 30, 30);
+}
+
+.navbar_left {
+	margin-left: 0px;
+}
+
+.btn_navbar {
+	background: rgb(166, 250, 250);
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px 10px 30px;
+	text-transform: capitalize;
+	color: rgb(5, 84, 84);
+	font-size: 16px;
+	transition: 0.5s ease-in-out;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.btn_navbar:hover {
+	background: rgb(33, 212, 212);
+	color: rgb(0, 0, 0);
+}
+
+.image_navbar {
+	width: 200px;
+	height: auto;
+}
+
+.navbar_groups {
+	justify-content: end;
+	margin-right: 125px;
+	margin-top: 15px;
+	color: #318034;
+}
+
+/* ============ navbar end ============ */
+/* ============ navbar responsive start ============ */
+
+/* ============ navbar small screen start ============ */
+
+@media screen and (max-width: 576px) {
+	.image_navbar {
+		width: 175px;
+		height: auto;
+	}
+
+	.navbar_left {
+		margin: 0;
+	}
+
+	.navbar_groups {
+		margin: 15px 20px;
+	}
+
+	.btn_navbar {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+}
+
+/* ============ navbar small screen end ============ */
+/* ============ navbar small-medium start ============ */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.image_navbar {
+		width: 225px;
+		height: auto;
+	}
+
+	.navbar_left {
+		margin: 0;
+	}
+
+	.navbar_groups {
+		margin: 15px 30px;
+	}
+
+	.btn_navbar {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 75%;
+	}
+}
+
+/* ============ navbar small-medium  end ============ */
+/* ============ navbar medium start ============ */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.image_navbar {
+		width: 225px;
+		height: auto;
+	}
+
+	.navbar_left {
+		margin: 0;
+	}
+
+	.navbar_groups {
+		margin: 15px 20px;
+	}
+
+	.btn_navbar {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 60%;
+	}
+}
+
+/* ============ navbar medium  end ============ */
+/* ============ navbar large start ============ */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+	.navbar_left {
+		margin-left: 0;
+	}
+
+	.image_navbar {
+		width: 225px;
+		height: auto;
+	}
+
+	.navbar_groups {
+		margin: 0;
+		margin-right: 20px;
+	}
+}

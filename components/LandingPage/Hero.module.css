@@ -1,0 +1,276 @@
+/* ============ reset all margin and padding also applying font family root ============ */
+/* ============ componen default settings start ============ */
+
+.header {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #000000;
+}
+
+.sub_header {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #000000;
+}
+
+.text {
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 20px;
+	color: #fafafa;
+}
+
+.text_reguler {
+	font-size: 14px;
+	line-height: 20px;
+	color: #fafafa;
+}
+
+.text_bold {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #fafafa;
+}
+
+.buttons {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	color: rgb(111, 114, 13);
+	background-color: #faee7f;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 18px 10px 18px;
+	font-weight: bold;
+	transition: 0.3s ease-in-out;
+	text-transform: capitalize;
+}
+
+/* ============ componen default settings end ============ */
+
+/* ============ Navbar all start ============ */
+.blue_logo {
+	width: 180px;
+	height: 50px;
+	background-color: #116a14;
+	margin: 5px 0px 0px 80px;
+	border-radius: 3px;
+}
+
+.nav {
+	padding-right: 15px;
+	font-size: 18px;
+	line-height: 20%;
+	font-weight: 500;
+}
+
+.navbar_container {
+	margin: 0;
+}
+
+.navbar_bg {
+	background-color: #1ddb8f;
+	padding: 20px 0px;
+}
+
+.navbar_left {
+	margin-left: 0px;
+}
+
+.btn_navbar {
+	background-color: #000000;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	text-transform: capitalize;
+	color: #ffff;
+	font-size: 16px;
+	transition: 0.3s ease-in-out;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.btn_navbar:hover {
+	background-color: #318034;
+	color: rgb(45, 44, 44);
+	color: #ffff;
+}
+
+.image_navbar {
+	width: 200px;
+	height: auto;
+}
+
+.navbar_groups {
+	justify-content: end;
+	margin-right: 125px;
+	margin-top: 15px;
+}
+
+/* ============ navbar end ============ */
+/* ============ navbar responsive start ============ */
+
+/* ============ navbar small screen start ============ */
+
+@media screen and (max-width: 576px) {
+	.image_navbar {
+		width: 175px;
+		height: auto;
+	}
+
+	.navbar_left {
+		margin: 0;
+	}
+
+	.navbar_groups {
+		margin: 15px 20px;
+	}
+
+	.btn_navbar {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+}
+
+/* ============ navbar small screen end ============ */
+/* ============ navbar small-medium start ============ */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.image_navbar {
+		width: 225px;
+		height: auto;
+	}
+
+	.navbar_left {
+		margin: 0;
+	}
+
+	.navbar_groups {
+		margin: 15px 30px;
+	}
+
+	.btn_navbar {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 75%;
+	}
+}
+
+/* ============ navbar small-medium  end ============ */
+/* ============ navbar medium start ============ */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.image_navbar {
+		width: 225px;
+		height: auto;
+	}
+
+	.navbar_left {
+		margin: 0;
+	}
+
+	.navbar_groups {
+		margin: 15px 20px;
+	}
+
+	.btn_navbar {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 60%;
+	}
+}
+
+/* ============ navbar medium  end ============ */
+/* ============ navbar large start ============ */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+	.navbar_left {
+		margin-left: 0;
+	}
+
+	.image_navbar {
+		width: 225px;
+		height: auto;
+	}
+
+	.navbar_groups {
+		margin: 0;
+		margin-right: 20px;
+	}
+}
+
+/* ============ landing page start ============ */
+
+.landing_page {
+	position: relative;
+	background-color: rgb(35, 36, 36);
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+.landing_page_header {
+	margin: 2em 0em 0em 2em;
+	color: #fafafa;
+	font-weight: bolder;
+}
+
+.landing_page p {
+	margin: 1em 0em 0em 5em;
+	padding-right: 15px;
+}
+
+.right {
+	margin-top: 50px;
+}
+
+.container_button_left {
+	position: relative;
+}
+
+.btn_landing_page {
+	margin: 2.5em 0em 0em 5em;
+}
+
+/* ============ landing page  end ============ */
+
+/* ============ Footer  start ============ */
+.icon_container a img {
+	width: 32px;
+	height: auto;
+}
+
+.bg_footer {
+	background-color: #1d1c1c;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+.chart {
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+.card_container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 70px;
+}
+
+.card_ {
+	width: 250px;
+	height: 370px;
+	border-width: 2px;
+	border: 1px solid beige;
+	border-radius: 8px;
+	background-color: whitesmoke;
+}
+
+.cardBody li {
+	list-style: none;
+	margin-left: -25px;
+}
